@@ -1,0 +1,23 @@
+# requirements.txt
+# Starting-point dependencies for Kaggle data-science work and learning to
+# handle large datasets. Pin/adjust versions as needed for your environment.
+
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel
+kaggle
+xgboost
+lightgbm
+pyspark
+polars
+duckdb
+pyarrow
+fastparquet
+tqdm
+notebook

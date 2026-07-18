@@ -1,0 +1,49 @@
+# --- Python bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Kaggle API credentials ---
+# Never commit your API token. On macOS it lives at ~/.kaggle/kaggle.json
+kaggle.json
+~/.kaggle/kaggle.json
+.kaggle/kaggle.json
+
+# --- Large data artifacts ---
+# Ignore dataset contents but keep the directory structure via .gitkeep.
+# NOTE: ignoring the whole dir (data/raw/) would also ignore .gitkeep, so we
+# ignore dir *contents* (data/raw/*) and then re-include .gitkeep/README.
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.tgz
+*.feather
+*.h5
+*.hdf5
+
+# Keep these tracked even though data/ contents are mostly ignored
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+!**/.gitkeep
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.idea/
+.vscode/
